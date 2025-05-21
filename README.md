@@ -89,14 +89,3 @@ This project is released under the [MIT License](LICENSE).
 
 **Amir Javanmir**  
 📅 Released: May 21, 2025  
-📧 amirjavanmir@example.com  
-
----
-
-## 🚀 Get Started!
-
-This simple yet useful project can easily be integrated into personal websites, educational projects, or blogs. All you need to do is include the `script.js` and `style.css` files in your page and use `<h2>` tags for subheadings.
-
----
-
-Let me know if you'd like a `.gitignore`, `package.json`, or deployment instructions added as well!
