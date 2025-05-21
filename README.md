@@ -28,7 +28,7 @@ Additionally, a small "↑" button appears next to every `<h2>` heading, which s
 1. Clone the project from GitHub:
 
 ```bash
-git clone https://github.com/yourusername/create-list-from-heading.git
+git clone https://github.com/ajavanmir/create-list-from-heading.git
 ```
 
 2. Enter the project directory:
