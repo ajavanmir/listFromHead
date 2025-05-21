@@ -1,0 +1,91 @@
+/*
+Copyright amir javanmir
+Released on: May 21, 2025
+*/
+@import url('https://fonts.cdnfonts.com/css/iranian-sans');
+body {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-family: 'Iranian Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.newsContent {
+    flex: 3;
+    padding: 20px;
+    background: #fff;
+    border-left: 1px solid #ddd;
+}
+
+.tableOfContent {
+    flex: 1;
+    padding: 20px;
+    background: #fafafa;
+    border-right: 1px solid #ddd;
+}
+
+h1 {    
+    font-size: 24px;
+}
+
+h2 {
+    margin-top: 30px;
+    position: relative;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 20px;
+}
+
+.scroll-to-toc {
+    cursor: pointer;
+    font-size: 18px;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: #007BFF;
+    color: white;
+    padding: 2px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.scroll-to-toc:hover {
+    background: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+li:hover {
+    color: #007BFF;
+}
+
+.active {
+    color: #007BFF;
+    font-weight: bold;
+}
